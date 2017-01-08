@@ -15,7 +15,7 @@
       <a class="navbar-brand" href="https://www.skale-5.com" style="padding-top: 6px;">
         <img alt="SK5" src="img/sk5.png">
       </a>
-      <p class="navbar-text">Vote for your favorite Artist</p>
+      <p class="navbar-text">Vote for your favorite Artist - We're now on the container : <strong><?php echo shell_exec("cat /etc/hostname");?></strong></p>
     </div>
   </div>
 </nav>
