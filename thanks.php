@@ -25,40 +25,11 @@
 	<p>This is a small website to showcase Docker fondamentals with its clustering mode : Docker Swarm.
        Vote to show how Docker is cool</p>
     </div>
-    <div class="col-md-3">&nbsp;</div>
-	<div class="row">
-	  <div class="col-md-2">
-	    <div class="thumbnail">
-	      <img src="img/mario.jpeg">
-	      <div class="caption">
-		<h3>Emily</h3>
-		<p><a href="thanks.html" class="btn btn-success" role="button">Vote</a></p>
-	      </div>
-	    </div>
-	  </div>
 
-	  <div class="col-md-2">
-	    <div class="thumbnail">
-	      <img src="img/mario.jpeg">
-	      <div class="caption">
-		<h3>Tori</h3>
-		<p><a href="thanks.html" class="btn btn-primary" role="button">Vote</a></p>
-	      </div>
-	    </div>
-	  </div>
-<!--
-	  <div class="col-md-2">
-	    <div class="thumbnail">
-	      <img src="img/mario.jpeg">
-	      <div class="caption">
-		<h3>Aletta</h3>
-		<p><a href="thanks.html" class="btn btn-warning" role="button">Vote</a></p>
-	      </div>
-	    </div>
-	  </div>
--->
-
-    </div>
+    <div class="alert alert-success">
+        <Strong>Well done!!</strong> You successfully voted for your favorite Artist
+    </div> 
+    <a href="index.php" class="btn btn-warning" role="button">Go Back!</a>
 </div>
 </body>
 </html>
