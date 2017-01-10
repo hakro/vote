@@ -29,7 +29,7 @@
 	<div class="row">
 	  <div class="col-md-2">
 	    <div class="thumbnail">
-	      <img src="img/mario.jpeg">
+	      <img src="img/e.jpeg">
 	      <div class="caption">
 		<h3>Emily</h3>
 		<p><a href="thanks.php" class="btn btn-success" role="button">Vote</a></p>
@@ -39,7 +39,7 @@
 
 	  <div class="col-md-2">
 	    <div class="thumbnail">
-	      <img src="img/mario.jpeg">
+	      <img src="img/t.jpeg">
 	      <div class="caption">
 		<h3>Tori</h3>
 		<p><a href="thanks.php" class="btn btn-primary" role="button">Vote</a></p>
@@ -49,9 +49,9 @@
 <!--
 	  <div class="col-md-2">
 	    <div class="thumbnail">
-	      <img src="img/mario.jpeg">
+	      <img src="img/k.jpeg">
 	      <div class="caption">
-		<h3>Aletta</h3>
+		<h3>Kayden</h3>
 		<p><a href="thanks.php" class="btn btn-warning" role="button">Vote</a></p>
 	      </div>
 	    </div>
