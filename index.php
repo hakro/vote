@@ -46,7 +46,7 @@
 	      </div>
 	    </div>
 	  </div>
-<!--
+
 	  <div class="col-md-2">
 	    <div class="thumbnail">
 	      <img src="img/lisa.png">
@@ -56,7 +56,6 @@
 	      </div>
 	    </div>
 	  </div>
--->
 
     </div>
 </div>
