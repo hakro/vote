@@ -1,0 +1,20 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/html
+
+hooks:
+  BeforeInstall:
+    - location: codedeploy/hooks/www-backup.sh
+      timeout: 300
+      runas: root
+  AfterInstall:
+    - location: codedeploy/hooks/app-rename.sh
+      timeout: 300
+      runas: root
+  ApplicationStart:
+    - location: codedeploy/hooks/magento-cli.sh
+      timeout: 300
+      runas: root
+
