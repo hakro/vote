@@ -6,15 +6,10 @@ files:
 
 hooks:
   BeforeInstall:
-    - location: codedeploy/hooks/www-backup.sh
+    - location: codedeploy/before.sh
       timeout: 300
       runas: root
   AfterInstall:
-    - location: codedeploy/hooks/app-rename.sh
+    - location: codedeploy/after.sh
       timeout: 300
       runas: root
-  ApplicationStart:
-    - location: codedeploy/hooks/magento-cli.sh
-      timeout: 300
-      runas: root
-
